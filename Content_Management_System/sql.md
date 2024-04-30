@@ -27,15 +27,15 @@ The web application is vulnerable to SQL injection in the "searchText" input fie
 1. **Set Up a Proxy:** First, configure a web proxy in your browser to intercept HTTP requests. Tools like Burp Suite or OWASP ZAP can be used for this purpose.
 2. **Navigate and Intercept:** Access the vulnerable web application by navigating to `http://192.168.150.131/search.php`. Ensure you are on the page that utilizes the `searchText` input field for querying database entries.
 
-![image-20240429173027815](/screenshot/image-20240429173027815.png)
+![image-20240429173027815](/Content_Management_System/screenshot/image-20240429173027815.png)
 
 1. **Intercept the Request:** Use the web proxy to capture the HTTP POST request made when a search query is submitted. The initial request will look like a standard search, typically with benign input in the `searchText` field.
 2. **Modify the Payload:** In the intercepted request, modify the `searchText` parameter to include the SQL injection payload: `searchText=-1' union all select 1,2,CONCAT(0x7e,(version()),0x7e),3,4,5,6,7,8,9#`. This payload is designed to execute a union SQL query that retrieves the database version, among other dummy values, to demonstrate the ability to inject SQL commands.
 3. **Send the Malicious Request and Observe the Outcome:** After modifying the request with the SQL injection payload, forward the request through your proxy. Monitor the response from the server to this modified request. If the SQL injection is successful, the server's response will include the database version wrapped between tilde characters (`~`).
 
-![image-20240430100142316](/screenshot/image-20240430100142316.png)
+![image-20240430100142316](/Content_Management_System/screenshot/image-20240430100142316.png)
 
-![image-20240429173101460](/screenshot/image-20240429173101460.png)
+![image-20240429173101460](/Content_Management_System/screenshot/image-20240429173101460.png)
 
 **Payload:**
 
@@ -66,7 +66,7 @@ searchText=-1%27+union+all+select+1%2C2%2CCONCAT%280x7e%2C%28version%28%29%29%2C
 **searchText parameter in search.php:**
 It can be found from the code that after obtaining the post request, the author did not filter it, and passing parameters to sql resulted in sql injection.
 
-![image-20240430094445392](/screenshot/image-20240430094445392.png)
+![image-20240430094445392](/Content_Management_System/screenshot/image-20240430094445392.png)
 
 ##### Impact:
 
