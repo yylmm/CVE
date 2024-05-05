@@ -132,16 +132,16 @@ txtfullname=<svg/onload=alert`1`>&cmdsex=less_10&txtphone=less_12&txtdob=<svg/on
 
 ### Screenshot
 
-![image-20240505125258930](/screenshot/image-20240505125258930.png)
+![image-20240505125258930](./screenshot/image-20240505125258930.png)
 
-![image-20240505125406779](/screenshot/image-20240505125406779.png)
+![image-20240505125406779](./screenshot/image-20240505125406779.png)
 
-![image-20240505125352394](/screenshot/image-20240505125352394.png)
+![image-20240505125352394](./screenshot/image-20240505125352394.png)
 
-![image-20240505125439824](/screenshot/image-20240505125439824.png)
+![image-20240505125439824](./screenshot/image-20240505125439824.png)
 
-![image-20240505125453349](/screenshot/image-20240505125453349.png)
+![image-20240505125453349](./screenshot/image-20240505125453349.png)
 
-![image-20240505125237125](E:\CVE\Prison Management System\screenshot\image-20240505125237125.png)
+![image-20240505125237125](./screenshot/image-20240505125237125.png)
 
-![image-20240505125511815](/screenshot/image-20240505125511815.png)
+![image-20240505125511815](./screenshot/image-20240505125511815.png)
