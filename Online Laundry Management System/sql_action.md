@@ -488,7 +488,7 @@ python3 sqlmap.py -r 1.txt -p id --current-user --batch --dbms mysql
 
 **Screenshot**
 
-![image-20240510171704884](E:\CVE\Online Laundry Management System\screenshot\image-20240510171704884.png)
+![image-20240510171704884](./screenshot/image-20240510171704884.png)
 
 ![image-20240510174211921](./screenshot/image-20240510174211921.png)
 
@@ -496,7 +496,7 @@ python3 sqlmap.py -r 1.txt -p id --current-user --batch --dbms mysql
 
 ![image-20240510172245179](./screenshot/image-20240510172245179.png)
 
-![image-20240510180026266](E:\CVE\Online Laundry Management System\screenshot\image-20240510180026266.png)
+![image-20240510180026266](./screenshot/image-20240510180026266.png)
 
 ![image-20240510112841983](./screenshot/image-20240510112841983.png)
 

