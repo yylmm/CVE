@@ -32,7 +32,7 @@ PHP, Apache, MySQL
 
 ```
 
-The potential injection point is located within the `laporan_filter` function in `Pengeluaran.php`. This function directly utilizes the `$dari` and `$sampai` variables to construct a database query without employing parameterized queries or proper data sanitization measures.
+The potential injection point is located within the `xxx` function in `admin_class.php`. This function directly utilizes the `$id` variables to construct a database query without employing parameterized queries or proper data sanitization measures.
 
 ```
 
@@ -50,5 +50,5 @@ The potential injection point is located within the `laporan_filter` function in
 
 ```
 
-**Screenshot**
+**Screenshot:**
 

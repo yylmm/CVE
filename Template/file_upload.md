@@ -52,4 +52,4 @@ Upload png, capture the packet, modify the file content to malicious code, and m
 
 ```
 
-**Screenshot**
+**Screenshot:**
