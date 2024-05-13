@@ -32,7 +32,7 @@ PHP, Apache, MySQL
 
 ```
 
-The potential injection point is located within the `xxx` function in `admin_class.php`. This function directly utilizes the `$id` variables to construct a database query without employing parameterized queries or proper data sanitization measures.
+The potential injection point is located in `manage_inv.php`. This file directly utilizes the `$id`  variables to construct a database query without employing parameterized queries or proper data sanitization measures.
 
 ```
 
@@ -47,7 +47,7 @@ The potential injection point is located within the `xxx` function in `admin_cla
 ```
 
 ```
-
+python sqlmap.py -r 1.txt --current-user --batch --dbms mysql
 ```
 
 **Screenshot:**

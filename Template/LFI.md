@@ -42,7 +42,7 @@ A vulnerability was discovered in the page `/index.php`. An authenticated user h
 **Payload：**
 
 ```
-php://filter/convert.base64-encode/resource=C:\xampp\htdocs\customer_support\db_connect 
+php://filter/convert.base64-encode/resource=index
 ```
 
 **Burp Request：**
